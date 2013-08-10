@@ -1,0 +1,86 @@
+Style Guide: Files and Directories
+==================================
+:revisionhistory:
+:numbered:
+:toc2:
+
+== Introduction
+This document provides guidelines for naming computer files and directories. These guidelines are intended to aid organization and promote consistency. The conventions presented in this document were designed with software code projects in mind but are applicable to many use cases.
+
+== File Naming
+File names should avoid containing whitespaces. Names should normally be all lowercase with underscores separating individual words. The extension should always be lowercase. The following are some typical filenames:
+
+  - `sample_file.txt`
+  - `file_with_a_longer_name.jpg`
+
+When numbers are used to differentiate between files with similar names, the number should follow the name without delimitation. See the following examples:
+
+  - `some_file1.jpg`
+  - `some_file2.jpg`
+  - `some_file3.jpg`
+
+When dates are added to the filename, they should use the `YYYYMMDD` format and be prefixed to the filename and delimited with a hyphen. If the time is also included, use the `YYYYMMDDhhmm` format with the hours and minutes being 24-hour Eastern Standard Time. If necessary second and milliseconds could be added in the same fashion although this case should rarely be used. See the following examples:
+
+  - `20120101-my_file.txt` - 1 January 2012
+  - `201201012030-my_file.txt` - 1 January 2012 at 8:30pm EST
+
+To describe a file that contains information over a range of dates, use `-to-` to delimit the two dates. See the following examples:
+
+  - `20120101-to-20121012-finances.txt` - 1 January 2012 through 12 October 2012
+
+Any additional metadata added to the filename should prefix the proper name and be delimited with a hyphen. Date information will typically go first. See the following examples:
+
+  - `followup-msg_data.txt` - The `followup` text is metadata.
+  - `under_review-some_doc.txt` - The `under_review` text is metadata.
+  - `20120101-under_review-some_doc.txt` - The `under_review` text is metadata.
+
+In some special cases, it may be appropriate to append metadata to the end of a filename. Typically in these cases, the file in question is an archive and the entire filename is treated as meta information. See the following example:
+
+  - `20120101-my_doc-source.zip` - This archive contains source files for the document titled `20120101-my_doc`.
+
+Filenames may contain capital letters when necessary for a specific use. See the following examples:
+
+  - `Makefile` - Capital M by standard convention
+  - `_Build_All.bat` - Capital letters and leading underscore by user convention.
+  - `Important_Company_Memo.doc` - Document written by someone else; spaces replaced with underscores.
+
+Special metadata files use lowercase-underscore notation with double-underscores as prefix and suffix. See the following examples:
+
+  - `__dir_info__.txt`
+  - `__archive_info__.txt`
+
+== Directory Naming
+Directory names fall into three categories: records, projects, and special.
+
+Record directories are any high level directory used to store data that is not a component in a larger constructed project. These directories should be named using LeadingCaps notation. See the following examples:
+
+  - `TaxRecords`
+  - `VacationPhotos`
+
+Project directories use lowercase-underscore notation. See the following examples:
+
+  - `src`
+  - `html_templates`
+
+In either record or project directories, hyphens are used to delimit date and other metadata. Date information could alternatively be added as a suffix depending on local convention. See the following examples:
+
+  - `2012-BenefitInfo`
+  - `BenefitInfo2012`
+  - `obsolete-css`
+
+Record or project directories can use a single underscore as a prefix to denote a differing level of significance from its sibling directories.
+
+Special directories use lowercase-underscore notation with double-underscores as prefix. Double-underscores are used as a suffix unless the special name is being used as a metadata prefix. See the following examples:
+
+  - `__backup__`
+  - `__branch_info__`
+  - `__output__`
+  - `__output-log_files`
+  - `__temp__`
+  - `__temp-pictures`
+
+== Additional Notes
+Special metadata prefixes can be added to a file or directory to give it additional meaning. These prefixes should be limited to one word with lowercase notation and leading double-underscores. See the following examples:
+
+  - `__temp-my_file.txt` - Marks the file as temporary.
+  - `__del-my_file.txt` - Marks the file to be deleted.
