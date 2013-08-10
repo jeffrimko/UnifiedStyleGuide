@@ -1,5 +1,0 @@
-Test Doc
-========
-:date: 9 August 2013
-
-Hello **world**!
