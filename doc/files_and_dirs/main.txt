@@ -93,7 +93,7 @@ Special metadata prefixes can be added to a file or directory to give it additio
 
 == Specific Cases
 === Archive Files
-An archive is typically a zip file (although 7-zip files may be used) that is simply used to archive other files. All archives must contain a archive information file named `__archive_info__.txt` in base directory. The archive information file contains a short description of the archive contents. The file is formatted using Asciidoc markup.
+An archive is typically a zip file (although 7-zip files may be used) that is simply used to archive other files. All archives must contain a archive information file named `__archive_info__.txt` in base directory. The archive information file contains a short description of the archive contents. The file is formatted using AsciiDoc markup.
 
 .Example `__archive_info__.txt` file for archive named `archive_example.zip`
 ....
@@ -105,7 +105,7 @@ This archive contains some example files.
 ....
 
 === Directory Information Files
-Special files may be used to provide additional information on the use or purpose of a directory. These files are always named `__dir_info__.txt` and are only applicable to the parent directory. These files are formatted using Asciidoc markup.
+Special files may be used to provide additional information on the use or purpose of a directory. These files are always named `__dir_info__.txt` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
 
 .Example `__dir_info__.txt` file for directory named `ExampleDirectory`
 ....
