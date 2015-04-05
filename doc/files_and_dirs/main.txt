@@ -1,11 +1,13 @@
-Style Guide: Files and Directories
-==================================
+Unified Style Guide: Files and Directories
+==========================================
 :revisionhistory:
 :numbered:
 :toc2:
 
+This document is part of the Unified Style Guide. Refer to the project site for more information.
+
 == Introduction
-This document provides guidelines for naming computer files and directories. These guidelines are intended to aid organization and promote consistency. The conventions presented in this document were designed with software code projects in mind but are applicable to many use cases.
+This document provides guidelines for naming computer files and directories. These guidelines are intended to aid organization and promote consistency. The conventions presented in this document were designed with software code projects in mind but are applicable to other use cases.
 
 == File Naming
 File names should avoid containing whitespaces. Names should normally be all lowercase with underscores separating individual words. The extension should always be lowercase. The following are some typical filenames:
