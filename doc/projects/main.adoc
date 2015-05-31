@@ -1,0 +1,47 @@
+Unified Style Guide: Projects
+=============================
+:revisionhistory:
+:numbered:
+:toc2:
+
+== Introduction
+This document provides guidelines for structuring and naming computer projects. These guidelines are intended to aid organization and promote consistency. The conventions present in this document were designed with software code projects in mind but are applicable to other use cases.
+
+== Top-Level Project Directories
+The project root is a record directory. The following subdirectories are typical in a project root:
+
+  - `Concept` - Files related to planning the project design.
+  - `Design` - Files related to the design of the project.
+  - `Notes` - Notes related to the project.
+  - `Issues` - Files related to project issues.
+  - `Releases` - Archives of project releases.
+
+== Design Subdirectories
+Inside the `Design` directory, the contents are largely dependent on the project type.
+
+=== Code Project
+For code projects, the following subdirectories are used to structure the design files:
+
+  - `app` - The source code and resources for the project application (if applicable).
+  - `doc` - Documentation related to the project; can be handled by a source code extraction utility e.g. Doxygen.
+  - `lib` - The source code and resources for the project library (if applicable).
+  - `platform` - Platform specific source code required by the application.
+  - `tests` - Unit tests and related files.
+  - `utils` - Various utilities used by the project application or library e.g. third-party libraries.
+
+== Example Project Structures
+.Code Project
+----
+MyProject/
+|-- Concept/
+|   \-- brainstorming.txt
+\-- Design/
+    |-- app/
+    |   |-- Makefile
+    |   |-- main.c
+    |   \-- main.h
+    |-- doc/
+    |   \-- usage.txt
+    |-- changelog.txt
+    \-- readme.txt
+----
