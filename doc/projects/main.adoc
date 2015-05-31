@@ -1,5 +1,4 @@
-Unified Style Guide: Projects
-=============================
+= Unified Style Guide: Projects {revnum}
 :revnum: 0.1
 :numbered:
 :toc2:
