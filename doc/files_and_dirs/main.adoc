@@ -46,8 +46,8 @@ Filenames may contain capital letters when necessary for a specific use. See the
 
 Special metadata files use lowercase_underscore notation with double-underscores as prefix and postfix. See the following examples:
 
-  - `__dir_info__.txt`
-  - `__archive_info__.txt`
+  - `+__dir_info__.txt+`
+  - `+__archive_info__.txt+`
 
 == Directory Naming
 Directory types fall into three general categories:
@@ -73,10 +73,10 @@ In either record or resource directories, hyphens are used to delimit date and o
 
 Special directories use lowercase_underscore notation with double-underscores as prefix. Double-underscores are used as a postfix unless the special name is being used as a metadata prefix. See the following examples:
 
-  - `__backup__/`
-  - `__output__/`
+  - `+__backup__/+`
+  - `+__output__/+`
   - `__output-log_files/`
-  - `__temp__/`
+  - `+__temp__/+`
   - `__temp-pictures/`
 
 == Additional Guidelines
