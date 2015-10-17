@@ -1,4 +1,14 @@
-== Special Case Files
+= Unified Style Guide: Special Files {revnum}
+:revnum: 0.1
+:numbered:
+:toc2:
+
+== Introduction
+This document is provides guidelines for special file usage and structure. Following these guidelines should provide the following benefits:
+
+  - Promote consistent special file usage.
+  - Aid organization of information.
+
 === Archive Information
 These files are used to provide information about the contents of an archive. An archive is typically a zip file (although other similar formats may be used) that is simply used to archive other files. All archives must contain a archive information file named `__archive_info__.txt` in base directory. The file is formatted using AsciiDoc markup.
 
@@ -41,8 +51,9 @@ The following sections are common (omit those not applicable):
   - License - Copy/license information.
   - Requirements - Required items for the project to function.
   - Installation - Procedure to install project.
+  - Standards - List any standards (naming, versioning, etc) used by the project.
   - Documentation - Additional project documentation.
-  - Examples - Example usage of the project.
+  - Usage - Quick explanation of project usage, examples if library and quick tips if application.
   - Contacts - Information for contacting project maintainers.
   - Contributing - Information for contributing to the project.
   - Similar - Reference information about similar projects.
