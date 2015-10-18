@@ -54,9 +54,11 @@ The following sections are common (omit those not applicable):
   - Standards - List any standards (naming, versioning, etc) used by the project.
   - Documentation - Additional project documentation.
   - Usage - Quick explanation of project usage, examples if library and quick tips if application.
+  - Issues - List of known issues/bugs.
   - Contacts - Information for contacting project maintainers.
   - Contributing - Information for contributing to the project.
   - Similar - Reference information about similar projects.
+  - FAQ - Answers to questions not answered in other sections.
 
 === See Also File
 These files are used to provide locations of information relevant to the parent directory's contents. These files are always named `+__see_also__.txt+` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
