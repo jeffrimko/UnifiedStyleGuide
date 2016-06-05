@@ -13,7 +13,7 @@ This document provides guidelines for naming computer files and directories. Fol
   - Eliminate issues due to whitespace in file paths.
 
 == File Naming
-Files use lowercase_underscore notation. All files should include an extension with the only exceptions being files that follow well established and software dependent conventions (e.g. `Makefile`). The extension should always be lowercase. See the following examples:
+Files use lowercase_underscore notation. All files should include an extension with the only exceptions being files that follow well-established and software-dependent conventions (e.g. `Makefile`). The extension should always be lowercase. See the following examples:
 
   - `sample_file.txt`
   - `file_with_a_longer_name.jpg`
@@ -47,14 +47,14 @@ Filenames may contain capital letters when necessary for a specific use. See the
 Special metadata files use lowercase_underscore notation with double-underscores as prefix and postfix. See the following examples:
 
   - `+__dir_info__.txt+`
-  - `+__archive_info__.txt+`
+  - `+__arc_info__.txt+`
 
 == Directory Naming
 Directory types fall into three general categories:
 
-  - *record* - Directory used to store files that generalize a broad category. Typically files that are direct children are not frequently modified.
-  - *resource* - Directory used to store files that are frequently modified and
-  - *special* - Function of these directories vary.
+  - *record* - Used to organize/categorize contents. Typically the contents will not be frequently modified. Examples: photo albums, scanned documents, etc.
+  - *resource* - Used to hold resources/assets of a project. Typically the contents are frequently modified. Examples: software source code, artwork files, etc.
+  - *special* - The use of these directories vary. Examples: backups, temporary files, output files, etc.
 
 Record directories use LeadingCaps notation. See the following examples:
 
