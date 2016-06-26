@@ -46,10 +46,10 @@ These files are used to provide reference information for a project. These files
 
 The following sections are common (omit those not applicable):
 
-  - *Introduction* - Quick introduction to the project. Explain what it is, the functionality, and use domain.
-  - *Status* - Current status of project and changelog.
+  - *Introduction* - Quick introduction to the project. Explain what it is, the functionality, and common usage.
+  - *Status* - Current status of project. Optionally include link to changelog.
   - *License* - Copy/license information.
-  - *Requirements* - Required items for the project to function.
+  - *Requirements* - Required items for the project.
   - *Installation* - Procedure to install project.
   - *Usage* - Quick explanation of project usage, examples if library and quick tips if application.
   - *Documentation* - Additional project documentation.
