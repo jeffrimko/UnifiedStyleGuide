@@ -8,4 +8,4 @@ This project provides a series of style guide documents that apply to a variety 
   - [Special Files](doc/special_files/main.adoc) - Usage and structure of special files.
 
 ## Status
-Currently, this project is **under active development**.
+The status of this project is **beta**.

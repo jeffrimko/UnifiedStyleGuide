@@ -60,6 +60,17 @@ The following sections are common (omit those not applicable):
   - Similar - Reference information about similar projects.
   - FAQ - Answers to questions not answered in other sections.
 
+==== Status Section
+The following boilerplate text is recommended for the project status:
+
+  - The status of this project is **planning**. This project is not yet suitable for use.
+  - The status of this project is **pre-alpha**. This project is not yet suitable for use other than testing.
+  - The status of this project is **alpha**. This project is not yet suitable for use other than testing.
+  - The status of this project is **beta**. This project is suitable for use but there may be incompatibilities in new releases.
+  - The status of this project is **production/stable**. This project is suitable for use and new releases will maintain compatibility unless otherwise stated.
+  - The status of this project is **mature**. This project is suitable for use and new releases will only address critical issues (e.g. bug fixes).
+  - The status of this project is **inactive**. This project is suitable for use but no new releases are planned.
+
 === See Also File
 These files are used to provide locations of information relevant to the parent directory's contents. These files are always named `+__see_also__.txt+` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
 
