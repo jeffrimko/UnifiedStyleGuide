@@ -24,11 +24,11 @@ Inside the `Design/` directory, the contents are largely dependent on the projec
 === Software Project
 For software development projects, the following resource subdirectories may be used to structure the design files if applicable:
 
-  - `app/` - The source code and resources for the project application.
+  - `app/` - Source code for the project application.
   - `doc/` - Documentation related to the project; can be handled by a source code extraction utility e.g. Doxygen.
   - `examples/` - Example usage of the software.
   - `install/` - Installation related files.
-  - `lib/` - The source code and resources for the project library.
+  - `lib/` - Source code for the project library.
   - `platform/` - Platform specific source code required by the application.
   - `tests/` - Unit tests and related files.
   - `utils/` - Various utilities used by the project application or library e.g. third-party libraries.
