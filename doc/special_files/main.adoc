@@ -55,6 +55,7 @@ The following sections are common (omit those not applicable):
   - *Documentation* - Additional project documentation.
   - *Standards* - List any standards (naming, versioning, etc) used by the project.
   - *Issues* - List of known issues/bugs.
+  - *Roadmap* - Plan of upcoming changes/features.
   - *Contacts* - Information for contacting project maintainers.
   - *Contributing* - Information for contributing to the project.
   - *Similar* - Reference information about similar projects.
