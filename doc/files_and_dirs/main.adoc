@@ -28,12 +28,12 @@ Any additional metadata added to the filename should prefix the proper name and 
 
   - `followup-some_doc.txt` - The `followup` text is metadata.
   - `under_review-some_doc.txt` - The `under_review` text is metadata.
-  - `20120101-under_review-some_doc.txt` - The `under_review` text is metadata.
 
-When dates are added to the filename, they should use the `YYYYMMDD` format and be prefixed to the filename and delimited with a hyphen. If the time is also included, use the `YYYYMMDDhhmm` format with the hours and minutes being 24-hour. If necessary second and milliseconds could be added in the same fashion although this case should rarely be used. See the following examples:
+When dates are added to the filename as metadata, use the `YYYYMMDD` basic format as defined in https://en.wikipedia.org/wiki/ISO_8601[ISO 8601]. Additional time resolution can be added if necessary but omit the `T` used in the ISO standard. See the following examples:
 
   - `20120101-my_file.txt` - 1 January 2012
-  - `201201012030-my_file.txt` - 1 January 2012 at 8:30pm
+  - `201201012030-my_file.txt` - 1 January 2012 at 8:30 pm
+  - `20120101203045-my_file.txt` - 1 January 2012 at 8:30:45 pm
 
 To describe a file that contains information over a range of dates, use `_to_` to delimit the dates. See the following examples:
 
