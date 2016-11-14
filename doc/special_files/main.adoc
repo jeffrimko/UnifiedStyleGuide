@@ -9,7 +9,7 @@ This document is provides guidelines for special file usage and structure. Follo
   - Promote consistent special file usage.
   - Aid organization of information.
 
-=== Archive Information
+== Archive Information
 These files are used to provide information about the contents of an archive. An archive is typically a zip file (although other similar formats may be used) that is simply used to archive other files. All archives must contain a archive information file named `+__arc_info__.txt+` in base directory. The file is formatted using AsciiDoc markup.
 
 .Example `+__arc_info__.txt+` file for archive named `archive_example.zip`
@@ -22,10 +22,10 @@ This archive contains some example files.
 
 <1> Title is the name of the archive file (without extension).
 
-=== Changelog Files
+== Changelog Files
 These files are used to maintain the changes to a project or set of files. These files are always named either `changelog.<ext>` or `CHANGLOG.<ext>` and the extension will typically either be `.adoc` or `.txt` for AsciiDoc or `.md` for Markdown.
 
-=== Directory Information
+== Directory Information
 These files are used to provide additional information on the use or purpose of a directory. These files are always named `+__dir_info__.txt+` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
 
 .Example `+__dir_info__.txt+` file for directory named `ExampleDirectory/`
@@ -38,10 +38,10 @@ This directory contains some example files.
 
 <1> Title is the name of the parent directory.
 
-=== External Files
+== External Files
 These files are used to indicate that the contents of a directory are sourced or directly copied for a different location. These files are always named `+__ext_files__.txt+` and only applicable to the parent directory.
 
-=== Readme Files
+== Readme Files
 These files are used to provide reference information for a project. These files are always named either `readme.<ext>` or `README.<ext>` and the extension will typically either be `.adoc` or `.txt` for AsciiDoc or `.md` for Markdown.
 
 The following sections are common (omit those not applicable):
@@ -61,7 +61,7 @@ The following sections are common (omit those not applicable):
   - *Similar* - Reference information about similar projects.
   - *FAQ* - Answers to questions not answered in other sections.
 
-==== Status Section
+=== Status Section
 The following boilerplate text is recommended for the project status:
 
   - The status of this project is **planning**. This project is not yet suitable for use.
@@ -72,10 +72,10 @@ The following boilerplate text is recommended for the project status:
   - The status of this project is **mature**. This project is suitable for use and new releases will only address critical issues (e.g. bug fixes).
   - The status of this project is **inactive**. This project is suitable for use but no new releases are planned.
 
-=== See Also File
+== See Also File
 These files are used to provide locations of information relevant to the parent directory's contents. These files are always named `+__see_also__.txt+` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
 
-=== User Scripts
+== User Scripts
 These files are scripts intended for direct interactive with a user; typically the user will begin the interaction by executing the script directly (rather than it being called by another script or utility). These files are named using the following convention:
 
   - Leading underscore.
