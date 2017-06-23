@@ -1,7 +1,7 @@
 = Unified Style Guide: Projects {revnum}
 :revnum: 0.1
 :numbered:
-:toc2:
+:toc: left
 
 == Introduction
 This document provides guidelines for structuring and naming computer projects. Following these guidelines should provide the following benefits:
@@ -15,8 +15,14 @@ The project root is a record directory. The following subdirectories are typical
   - `Concept/` - Files related to planning the project design.
   - `Design/` - Files related to the design of the project.
   - `Notes/` - Notes related to the project.
-  - `Issues/` - Files related to project issues.
   - `Releases/` - Archives of project releases.
+
+The following subdirectories may be used when applicable:
+
+  - `Assignments/` - Maintains task or assignment files related to the project but limited in scope.
+  - `Backup/` - Backups not maintained elsewhere.
+  - `Records/` - Itemized records related to the project.
+  - `References/` - Reference material received from other sources.
 
 == Design Subdirectories
 Inside the `Design/` directory, the contents are largely dependent on the project type.

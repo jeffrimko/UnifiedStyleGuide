@@ -53,7 +53,7 @@ Special metadata files use lowercase_underscore notation with double-underscores
 Directory types fall into three general categories:
 
   - *record* - Used to organize/categorize contents. Typically the contents will not be frequently modified. Examples: photo albums, scanned documents, etc.
-  - *resource* - Used to hold resources/assets of a project. Typically the contents are frequently modified. Examples: software source code, artwork files, etc.
+  - *resource* - Used to hold resources/assets of a project. Typically the contents are frequently modified. Examples: software source code, artwork, etc.
   - *special* - The use of these directories vary. Examples: backups, temporary files, output files, etc.
 
 Record directories use LeadingCaps notation. See the following examples:
