@@ -9,7 +9,7 @@ This document is provides guidelines for special file usage and structure. Follo
   - Promote consistent special file usage.
   - Aid organization of information.
 
-== Archive Information
+== Archive Information Files
 These files are used to provide information about the contents of an archive. An archive is typically a zip file (although other similar formats may be used) that is simply used to archive other files. All archives must contain a archive information file named `+__arc_info__.txt+` in base directory. The file is formatted using AsciiDoc markup.
 
 .Example `+__arc_info__.txt+` file for archive named `archive_example.zip`
@@ -52,7 +52,7 @@ The following subjections are common to help describe the changes (omit those no
   - First release.
 --------
 
-== Directory Information
+== Directory Information Files
 These files are used to provide additional information on the use or purpose of a directory. These files are always named `+__dir_info__.txt+` and are only applicable to the containing directory. These files are formatted using AsciiDoc markup.
 
 .Example `+__dir_info__.txt+` file for directory named `ExampleDirectory/`
@@ -99,7 +99,7 @@ The following boilerplate text is recommended for the project status:
   - The status of this project is **mature**. This project is suitable for use and new releases will only address critical issues (e.g. bug fixes).
   - The status of this project is **inactive**. This project is suitable for use but no new releases are planned.
 
-== See Also File
+== See Also Files
 These files are used to provide locations of information relevant to the parent directory's contents. These files are always named `+__see_also__.txt+` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
 
 .Example `+__see_also__.txt+` file for directory named `ExampleDirectory/`
