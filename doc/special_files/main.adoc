@@ -42,17 +42,6 @@ These files are always named either `changelog.<ext>` or `CHANGLOG.<ext>` ({see_
 
 Each release should be described in a dedicated section using the following naming convention: `myproject-0.1.2 (2000-01-02)`
 
-=== Common Sections
-The following sections are common (omit those not applicable); the text of each subsection should be an unordered list:
-
-  - *Highlights* - Quick summary of changes. Helps when there are many changes in a release.
-  - *Added* - Describe new features.
-  - *Changed* - Describe changes made to existing functionality.
-  - *Depreciated* - Describe soon-to-be removed features.
-  - *Removed* - Describe features that are now removed.
-  - *Fixed* - Describe any bug fixes.
-  - *Security* - Describe any venerabilities or security issues.
-
 .Example `+changelog.txt+` for project named `MyProject`
 --------
 = MyProject Changelog
@@ -65,6 +54,17 @@ The following sections are common (omit those not applicable); the text of each 
 === Highlights
   - First release.
 --------
+
+=== Common Sections
+The following sections are common (omit those not applicable); the text of each subsection should be an unordered list:
+
+  - *Highlights* - Quick summary of changes. Helps when there are many changes in a release.
+  - *Added* - Describe new features.
+  - *Changed* - Describe changes made to existing functionality.
+  - *Depreciated* - Describe soon-to-be removed features.
+  - *Removed* - Describe features that are now removed.
+  - *Fixed* - Describe any bug fixes.
+  - *Security* - Describe any venerabilities or security issues.
 
 == Directory Information Files
 These text files are used to provide additional information on the use or purpose of a directory.
