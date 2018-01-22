@@ -2,6 +2,14 @@
 :revnum: 0.1
 :numbered:
 :toc: left
+:see_ext: <<tfe, see extension info>>
+
+[NOTE]
+[[tfe]]
+.Text File Extensions
+========
+For text files, AsciiDoc is the officially recommended markup format. Either `.adoc` or `.txt` can be used for AsciiDoc file extensions.
+========
 
 == Introduction
 This document is provides guidelines for special file usage and structure. Following these guidelines should provide the following benefits:
@@ -10,24 +18,29 @@ This document is provides guidelines for special file usage and structure. Follo
   - Aid organization of information.
 
 == Archive Information Files
-These files are used to provide information about the contents of an archive. An archive is typically a zip file (although other similar formats may be used) that is simply used to archive other files. All archives must contain a archive information file named `+__arc_info__.txt+` in base directory. The file is formatted using AsciiDoc markup.
+These files are used to provide information about the contents of an archive.
+
+These files are always named either `+__arc_info__.<ext>+` ({see_ext}).
+
+An archive is typically a zip file (although other similar formats may be used) that is simply used to store files.
 
 .Example `+__arc_info__.txt+` file for archive named `archive_example.zip`
 --------
 = archive_example <1>
-:date: 1 January 2013
+:date: 2 January 2000
 
 This archive contains some example files.
 --------
-
 <1> Title is the name of the archive file (without extension).
 
 == Changelog Files
 NOTE: The following is based off the http://keepachangelog.com/en/1.0.0/[Keep A Changelog] guidelines with some modification.
 
-These files are used to maintain the changes to a project or set of files. These files are always named either `changelog.<ext>` or `CHANGLOG.<ext>` and the extension will typically either be `.adoc` or `.txt` for AsciiDoc or `.md` for Markdown.
+These files are used to maintain the changes to a project or set of files.
 
-Each release should be described in a dedicated section using the following naming convention: `myproject-0.1.2 (2017-06-22)`
+These files are always named either `changelog.<ext>` or `CHANGLOG.<ext>` ({see_ext}).
+
+Each release should be described in a dedicated section using the following naming convention: `myproject-0.1.2 (2000-01-02)`
 
 The following subjections are common to help describe the changes (omit those not applicable); the text of each subsection should be unordered lists:
 
@@ -43,22 +56,26 @@ The following subjections are common to help describe the changes (omit those no
 --------
 = MyProject Changelog
 
-== myproject-0.2.1 (2017-06-22)
+== myproject-0.2.1 (2000-01-03)
 === Added
   - Added foo functionality.
 
-== myproject-0.1.0 (2017-06-20)
+== myproject-0.1.0 (2000-01-02)
 === Highlights
   - First release.
 --------
 
 == Directory Information Files
-These files are used to provide additional information on the use or purpose of a directory. These files are always named `+__dir_info__.txt+` and are only applicable to the containing directory. These files are formatted using AsciiDoc markup.
+These text files are used to provide additional information on the use or purpose of a directory.
+
+These files are always named `+__dir_info__.<ext>+` ({see_ext}) and are only applicable to the containing directory.
+
+These files are formatted using AsciiDoc markup.
 
 .Example `+__dir_info__.txt+` file for directory named `ExampleDirectory/`
 --------
 = ExampleDirectory <1>
-:date: 1 January 2013
+:date: 2 January 2000
 
 This directory contains files related to examples.
 --------
@@ -66,10 +83,14 @@ This directory contains files related to examples.
 <1> Title is the name of the directory.
 
 == External Files
-These files are used to indicate that the contents of a directory are sourced or directly copied for a different location. These files are always named `+__ext_files__.txt+` and only applicable to the parent directory.
+These files are used to indicate that the contents of a directory are sourced or directly copied for a different location.
+
+These files are always named `+__ext_files__.<ext>+` ({see_ext}) and are only applicable to the parent directory.
 
 == Readme Files
-These files are used to provide reference information for a project. These files are always named either `readme.<ext>` or `README.<ext>` and the extension will typically either be `.adoc` or `.txt` for AsciiDoc or `.md` for Markdown.
+These text files are used to provide reference information for a project.
+
+These files are always named either `readme.<ext>` or `README.<ext>` ({see_ext}).
 
 The following sections are common (omit those not applicable):
 
@@ -100,12 +121,14 @@ The following boilerplate text is recommended for the project status:
   - The status of this project is **inactive**. This project is suitable for use but no new releases are planned.
 
 == See Also Files
-These files are used to provide locations of information relevant to the parent directory's contents. These files are always named `+__see_also__.txt+` and are only applicable to the parent directory. These files are formatted using AsciiDoc markup.
+These files are used to provide locations of information relevant to the parent directory's contents.
+
+These files are always named `+__see_also__.<ext>+` ({see_ext}) and are only applicable to the parent directory.
 
 .Example `+__see_also__.txt+` file for directory named `ExampleDirectory/`
 --------
 = SEE ALSO: ExampleDirectory <1>
-:date: 1 January 2013
+:date: 2 January 2000
 
 This directory contains files related to examples.
 --------
@@ -113,7 +136,9 @@ This directory contains files related to examples.
 <1> Title is the name of the directory, the "SEE ALSO:" prefix is suggested.
 
 == User Scripts
-These files are scripts intended for direct interactive with a user; typically the user will begin the interaction by executing the script directly (rather than it being called by another script or utility). These files are named using the following convention:
+These files are scripts intended for direct interaction with a user. Typically the user will begin the interaction by executing the script directly (rather than it being called by another script or utility).
+
+These files are named using the following convention:
 
   - Leading underscore.
   - First word is a strong verb.
@@ -123,7 +148,7 @@ These files are scripts intended for direct interactive with a user; typically t
   - Separate words with an underscore.
   - Extension is based on the script type.
 
-See the following examples:
+See the following naming examples:
 
   - `_Cleanup.bat`
   - `_Build_HTML.py`
