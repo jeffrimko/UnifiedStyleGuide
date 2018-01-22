@@ -42,7 +42,8 @@ These files are always named either `changelog.<ext>` or `CHANGLOG.<ext>` ({see_
 
 Each release should be described in a dedicated section using the following naming convention: `myproject-0.1.2 (2000-01-02)`
 
-The following subjections are common to help describe the changes (omit those not applicable); the text of each subsection should be unordered lists:
+=== Common Sections
+The following sections are common (omit those not applicable); the text of each subsection should be an unordered list:
 
   - *Highlights* - Quick summary of changes. Helps when there are many changes in a release.
   - *Added* - Describe new features.
@@ -92,6 +93,7 @@ These text files are used to provide reference information for a project.
 
 These files are always named either `readme.<ext>` or `README.<ext>` ({see_ext}).
 
+=== Common Section
 The following sections are common (omit those not applicable):
 
   - *Introduction* - Quick introduction to the project. Explain what it is, the functionality, and common usage.
