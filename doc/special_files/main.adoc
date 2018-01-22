@@ -93,7 +93,7 @@ These text files are used to provide reference information for a project.
 
 These files are always named either `readme.<ext>` or `README.<ext>` ({see_ext}).
 
-=== Common Section
+=== Common Sections
 The following sections are common (omit those not applicable):
 
   - *Introduction* - Quick introduction to the project. Explain what it is, the functionality, and common usage.
