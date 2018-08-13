@@ -64,7 +64,7 @@ The following sections are common (omit those not applicable); the text of each 
   - *Depreciated* - Describe soon-to-be removed features.
   - *Removed* - Describe features that are now removed.
   - *Fixed* - Describe any bug fixes.
-  - *Security* - Describe any venerabilities or security issues.
+  - *Security* - Describe any vulnerabilities or security issues.
 
 == Directory Information Files
 These text files are used to provide additional information on the use or purpose of a directory.
