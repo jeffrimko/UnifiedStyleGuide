@@ -38,7 +38,7 @@ NOTE: The following is based off the http://keepachangelog.com/en/1.0.0/[Keep A 
 
 These files are used to maintain the changes to a project or set of files.
 
-These files are always named either `changelog.<ext>` or `CHANGLOG.<ext>` ({see_ext}).
+These files are always named either `changelog.<ext>` or `CHANGELOG.<ext>` ({see_ext}).
 
 Each release should be described in a dedicated section using the following naming convention: `myproject-0.1.2 (2000-01-02)`
 
