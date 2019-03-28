@@ -99,8 +99,8 @@ The following sections are common (omit those not applicable):
   - *Introduction* - Quick introduction to the project. Explain what it is, the functionality, and common usage.
   - *Status* - Current status of project with link to changelog.
   - *Requirements* - Required items for the project (building, running, etc).
-  - *Build/Install* - Procedure to build and/or install project (modify section name if only one is applicable).
-  - *Usage* - Quick explanation of project usage, examples if library and quick tips if application.
+  - *Build/Install* - Procedure to build and/or install the project (modify section name if only one is applicable).
+  - *Usage* - High-level explanation of project usage.
   - *Documentation* - Additional project documentation.
   - *License* - Copy/license information.
   - *Standards* - List any standards (naming, versioning, etc) used by the project.
@@ -109,7 +109,7 @@ The following sections are common (omit those not applicable):
   - *Contacts* - Information for contacting project maintainers.
   - *Contributing* - Information for contributing to the project.
   - *Similar* - Reference information about similar projects.
-  - *FAQ* - Answers to questions not covered in other sections.
+  - *Q&A* - Answers to questions not covered in other sections.
 
 === Status Section
 The following boilerplate text is recommended for the project status:
