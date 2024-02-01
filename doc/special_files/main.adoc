@@ -96,11 +96,13 @@ These files are always named either `readme.<ext>` or `README.<ext>` ({see_ext})
 === Common Sections
 The following sections are common (omit those not applicable):
 
-  - *Introduction* - Quick introduction to the project. Explain what it is, the functionality, and common usage.
-  - *Status* - Current status of project with link to changelog.
+  - *Introduction* - Quick overview of the project.
+  - *Status* - Current status of project regarding releases/versions, link to changelog.
   - *Requirements* - Required items for the project (building, running, etc).
-  - *Build/Install* - Procedure to build and/or install the project (modify section name if only one is applicable).
+  - *Build* - Procedure to build the project.
+  - *Installation* - Procedure to install the project.
   - *Usage* - High-level explanation of project usage.
+  - *Design* - Implementation details of the project.
   - *Documentation* - Additional project documentation.
   - *License* - Copy/license information.
   - *Standards* - List any standards (naming, versioning, etc) used by the project.
@@ -116,7 +118,7 @@ The following boilerplate text is recommended for the project status:
 
   - The status of this project is **planning**. This project is not yet suitable for use.
   - The status of this project is **pre-alpha**. This project is not yet suitable for use other than testing.
-  - The status of this project is **alpha**. This project is not yet suitable for use other than testing.
+  - The status of this project is **alpha**. This project is suitable for use but there may be instability as well as incompatibilities in new releases.
   - The status of this project is **beta**. This project is suitable for use but there may be incompatibilities in new releases.
   - The status of this project is **production/stable**. This project is suitable for use and new releases will maintain compatibility unless otherwise stated.
   - The status of this project is **mature**. This project is suitable for use and new releases will only address critical issues (e.g. bug fixes).
